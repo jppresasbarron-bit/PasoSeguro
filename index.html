@@ -155,9 +155,10 @@
     <nav class="fixed w-full z-[60] glass-nav">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <div class="flex items-center gap-2 group cursor-pointer" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-                    <div class="w-10 h-10 bg-psYellow flex items-center justify-center rounded-lg rotate-3 group-hover:rotate-0 transition-transform">
-                        <i class="ph-bold ph-shield-check text-psBlack text-2xl"></i>
+                <div class="flex items-center gap-3 group cursor-pointer" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+                    <!-- Cambio realizado: De icono SVG a imagen logo.png -->
+                    <div class="flex items-center justify-center rounded-lg transition-transform group-hover:scale-105 duration-300">
+                        <img src="logo.png" alt="PasoSeguro Logo" class="h-10 w-auto object-contain" onerror="this.src='https://placehold.co/40x40/FFC107/000000?text=PS'">
                     </div>
                     <span class="text-2xl font-display font-black tracking-tighter text-white uppercase">PASO<span class="text-psYellow">SEGURO</span></span>
                 </div>
