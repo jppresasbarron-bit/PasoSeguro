@@ -156,7 +156,6 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <div class="flex items-center gap-3 group cursor-pointer" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-                    <!-- Cambio realizado: De icono SVG a imagen logo.png -->
                     <div class="flex items-center justify-center rounded-lg transition-transform group-hover:scale-105 duration-300">
                         <img src="logo.png" alt="PasoSeguro Logo" class="h-10 w-auto object-contain" onerror="this.src='https://placehold.co/40x40/FFC107/000000?text=PS'">
                     </div>
@@ -367,7 +366,7 @@
                     </button>
                 </div>
                 
-                <!-- PREVIEW ACTUALIZADO: COMPARADOR DINÁMICO -->
+                <!-- PREVIEW: COMPARADOR DINÁMICO -->
                 <div class="bg-psDark rounded-3xl border border-white/10 p-4 flex flex-col items-center justify-center min-h-[450px] relative overflow-hidden group shadow-2xl">
                     <div id="ecosystem-preview-content" class="z-10 w-full transition-all duration-300">
                         <!-- Componente de Comparación -->
@@ -632,5 +631,9 @@
             });
         });
     </script>
+
+    <!-- Integración de Botpress Chatbot -->
+    <script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2026/02/14/17/20260214172044-3K8MEG8H.js" defer></script>
 </body>
 </html>
